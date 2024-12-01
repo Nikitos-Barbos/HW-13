@@ -24,4 +24,3 @@ public class Book {
         return name + " от автора " + author + ", опубликонван в " + year;
     }
 }
-
