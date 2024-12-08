@@ -42,3 +42,4 @@ public class Book {
         return Objects.hash(name, author, year);
     }
 }
+
