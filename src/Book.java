@@ -9,9 +9,11 @@ public class Book {
         this.year = year;
         this.name = name;
     }
+
     public String getName() {
         return name;
     }
+
     public Author getAuthor() {
         return author;
     }
@@ -24,6 +26,7 @@ public class Book {
     public String toString() {
         return name + " от автора " + author + ", опубликонван в " + year;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
