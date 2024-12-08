@@ -38,3 +38,4 @@ public class Author {
         return Objects.hash(firstName, lastName);
     }
 }
+
